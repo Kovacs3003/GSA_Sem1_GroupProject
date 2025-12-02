@@ -305,13 +305,13 @@ Material:
     - _StylingCastShadowsRotationBetweenCells: 30
     - _StylingCastShadowsSmoothness: 1
     - _StylingCastShadowsSyncWithOtherStyling: 1
-    - _StylingCastShadowsThickness: 0.9
+    - _StylingCastShadowsThickness: 0.75
     - _StylingCastShadowsThicknessControl: 0
     - _StylingCastShadowsThicknessFalloff: 0.5
     - _StylingDFFalloff: 0
     - _StylingDFStartingDistance: 0
     - _StylingDistanceFadeValue: 0
-    - _StylingOvermodelingFactor: 0
+    - _StylingOvermodelingFactor: 0.48
     - _StylingRimAffectedArea: 2
     - _StylingRimBlending: 0
     - _StylingRimDensity: 30
@@ -341,7 +341,7 @@ Material:
     - _StylingShadingOpacityFalloff: 0
     - _StylingShadingRotationBetweenCells: 30
     - _StylingShadingSyncWithOtherStyling: 0
-    - _StylingShadingThickness: 0.9
+    - _StylingShadingThickness: 0.75
     - _StylingShadingThicknessControl: 0
     - _StylingShadingThicknessFalloff: 0.5
     - _StylingSpecularBlending: 0
