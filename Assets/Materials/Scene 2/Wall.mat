@@ -97,7 +97,7 @@ Material:
     - _Blend: 0
     - _BlendModePreserveSpecular: 1
     - _BumpScale: 1
-    - _CircleDensity: 75
+    - _CircleDensity: 140
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
     - _ColorSteps: 0
@@ -109,18 +109,18 @@ Material:
     - _DstBlend: 0
     - _DstBlendAlpha: 0
     - _EnvironmentReflections: 1
-    - _FalloffThreshold: 2.5
+    - _FalloffThreshold: 2.49
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
-    - _Lit_Threshold: 1.6
+    - _Lit_Threshold: 1.14
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.005
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
-    - _Rotation: 1.25
+    - _Rotation: 1.35
     - _Scale: 265.7
     - _SepcularRange: 0.68
     - _Shading: 0
@@ -136,7 +136,7 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 0.7362808, b: 0.35500002, a: 1}
+    - _BaseColor: {r: 1, g: 0.6683007, b: 0.20392156, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _LightDir: {r: 5.12, g: 2.88, b: -11.33, a: 0}

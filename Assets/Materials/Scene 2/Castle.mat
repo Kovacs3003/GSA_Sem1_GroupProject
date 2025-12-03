@@ -97,7 +97,7 @@ Material:
     - _Blend: 0
     - _BlendModePreserveSpecular: 1
     - _BumpScale: 1
-    - _CircleDensity: 75
+    - _CircleDensity: 140
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
     - _ColorSteps: 0
@@ -109,11 +109,11 @@ Material:
     - _DstBlend: 0
     - _DstBlendAlpha: 0
     - _EnvironmentReflections: 1
-    - _FalloffThreshold: 2.9
+    - _FalloffThreshold: 2.3
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
-    - _Lit_Threshold: 1.6
+    - _Lit_Threshold: 1.5
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.005
@@ -124,7 +124,7 @@ Material:
     - _Scale: 265.7
     - _SepcularRange: 0.68
     - _Shading: 0
-    - _ShadingMultiplier: 0.1
+    - _ShadingMultiplier: 1.8
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _Softness: 1
