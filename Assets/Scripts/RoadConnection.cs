@@ -2,82 +2,87 @@ using UnityEngine;
 
 public class RoadConnection : MonoBehaviour
 {
-    [Header("基础引用")]
-    public Camera mainCamera;       // 用来做屏幕坐标转换的相机
-    public Transform pointA;        // 道路端点 A
-    public Transform pointB;        // 道路端点 B
+    [Header("端点")]
+    public Transform pointA;
+    public Transform pointB;
 
-    [Header("检测参数")]
-    public float screenThreshold = 50f;  // 两点在屏幕上的最大距离（像素），小于这个就算拼接成功
+    [Header("拼接后的道路")]
+    public GameObject newRoad;
 
-    [Header("拼接后的内容")]
-    public GameObject newRoad;      // 拼接成功后要激活的那条路/桥
+    [Header("判定参数(按需调节)")]
+    public float screenThreshold = 40f;    //屏幕距离 < 40 像素
+    public float worldMaxDistance = 5f;    //3D 世界距离 < 5米
+    public float directionThreshold = 0.7f;//方向 dot > 0.7 视为方向一致
 
-    private bool isConnected = false;   // 是否已经拼接成功过
+    private bool connected = false;
 
     void Start()
     {
-        // 如果你忘了拖相机，就自动用主相机
-        if (mainCamera == null)
-        {
-            mainCamera = Camera.main;
-        }
-
-        // 确保新路一开始是隐藏的
         if (newRoad != null)
         {
-            newRoad.SetActive(false);
+            newRoad.SetActive(false);  //一开始隐藏道路
         }
     }
 
     void Update()
     {
-        // 已经连过一次了就不再检测（防止重复触发）
-        if (isConnected) return;
+        if (connected) return;     //防止重复触发
+        if (!Camera.main) return;  //防止无相机报错
 
-        if (CheckConnection())
+        //======================
+        // ① 屏幕坐标
+        //======================
+        Vector3 A = Camera.main.WorldToScreenPoint(pointA.position);
+        Vector3 B = Camera.main.WorldToScreenPoint(pointB.position);
+
+        //点要在屏幕前方，否则距离没意义
+        if (A.z < 0 || B.z < 0)
         {
-            OnConnected();
+            Debug.Log("点在相机后面，不做判定");
+            return;
         }
-    }
 
-    // 核心检测逻辑：两个端点在屏幕上是否足够接近
-    bool CheckConnection()
-    {
-        if (pointA == null || pointB == null || mainCamera == null)
-            return false;
-
-        // 把 3D 世界坐标转换为屏幕坐标
-        Vector3 screenA = mainCamera.WorldToScreenPoint(pointA.position);
-        Vector3 screenB = mainCamera.WorldToScreenPoint(pointB.position);
-
-        // 如果有一个点在相机后面（z < 0），说明没在视野中，直接失败
-        if (screenA.z < 0 || screenB.z < 0)
-            return false;
-
-        // 计算屏幕上的距离（只看 x、y）
-        float dist = Vector2.Distance(
-            new Vector2(screenA.x, screenA.y),
-            new Vector2(screenB.x, screenB.y)
+        //屏幕距离
+        float screenDist = Vector2.Distance(
+            new Vector2(A.x, A.y),
+            new Vector2(B.x, B.y)
         );
+        Debug.Log("屏幕距离 = " + screenDist);
 
-        // Debug 看看数值，用来调阈值
-        // Debug.Log("Screen distance: " + dist);
 
-        // 小于阈值就认为“在玩家视角下已经对齐”
-        return dist <= screenThreshold;
-    }
+        //======================
+        // ② 世界距离
+        //======================
+        float worldDist = Vector3.Distance(pointA.position, pointB.position);
+        Debug.Log("世界距离 = " + worldDist);
 
-    // 拼接成功时执行的逻辑
-    void OnConnected()
-    {
-        isConnected = true;
 
-        if (newRoad != null)
-        {
-            newRoad.SetActive(true);   // 激活桥/新路
-        }
+        //======================
+        // ③ 方向 dot
+        //======================
+        float dot = Vector3.Dot(pointA.forward, pointB.forward);
+        Debug.Log("方向 dot = " + dot);
 
-        Debug.Log("Road Connected! 已经成功拼接道路！");
+
+        //======================
+        // 判定条件
+        //======================
+
+        if (screenDist > screenThreshold)
+            return;
+
+        if (worldDist > worldMaxDistance)
+            return;
+
+        if (dot < directionThreshold)
+            return;
+
+
+        //======================
+        // 拼接成功
+        //======================
+        connected = true;
+        newRoad.SetActive(true);
+        Debug.Log(">>>>> 道路拼接成功！ <<<<<");
     }
 }
