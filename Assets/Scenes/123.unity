@@ -10479,6 +10479,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: assets fbx
       objectReference: {fileID: 0}
+    - target: {fileID: 3036819884297606218, guid: 2a0a42f23bb99784a90bbbfdfe81103e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 3036819884297606218, guid: 2a0a42f23bb99784a90bbbfdfe81103e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -35.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 5052876897122935655, guid: 2a0a42f23bb99784a90bbbfdfe81103e, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: e3df9bdfaccb76a439b9dc7071913374, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
