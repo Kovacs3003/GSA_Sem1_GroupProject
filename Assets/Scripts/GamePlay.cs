@@ -81,14 +81,14 @@ public class GamePlay : MonoBehaviour
 
     /// <summary>
     /// detection
-    /// </summary>
+    /// level 1 detect
     private void CheckLevelCondition()
     {
         if (Vector3.Distance(camMain.position, new Vector3(0f, 2.272501f, -5.07000f)) <= 0.5f &&
             Math.Abs(camMain.localEulerAngles.x - 11.22795f) <= 2f &&
             level == 0f)
         {
-            Debug.Log("触发了机关");
+            Debug.Log("level 1");
             StartCoroutine(NextLevel());
         }
 
@@ -108,7 +108,10 @@ public class GamePlay : MonoBehaviour
         RealObject.SetActive(true);
 
         ani.SetInteger("level", 0);
-        yield return new WaitForSeconds(4f);
+        yield return new WaitForSeconds(2f);
         canRotate = true;
     }
+
+    /// level 2 detect
+
 }
