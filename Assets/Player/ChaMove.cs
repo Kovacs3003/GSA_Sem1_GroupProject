@@ -21,12 +21,8 @@ public class ChaMove : MonoBehaviour
 
         move = new Vector3(x, 0, z);
 
-        if (move != Vector3.zero)
-        {
-            transform.LookAt(transform.position + move);
-        }
-
-        transform.position += move * speed * Time.deltaTime;
+        transform.LookAt(transform.position + new Vector3(x, 0, z));
+        transform.position += new Vector3(x, 0, z) * speed * Time.deltaTime;
 
         UpdateAnim();
     }
