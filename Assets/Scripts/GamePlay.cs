@@ -6,11 +6,8 @@ public class GamePlay : MonoBehaviour
 {
 
     [SerializeField] private Transform[] littleSceneCams;
-
     [SerializeField] private Transform[] littleSceneCenters;
-
     [SerializeField] private Transform box;
-
     [SerializeField] private Transform camMain;
 
     private float m_deltaX;
@@ -23,12 +20,17 @@ public class GamePlay : MonoBehaviour
     [SerializeField] private float moveYSpeed = 0.05f;
     [SerializeField] private float moveZSpeed = 0.1f;
 
-    private float level = 0f; 
+    private float level = 0f;
+
 
     [SerializeField] private Animator ani;
     [SerializeField] private GameObject RealObject;
 
     private bool canRotate = true;
+
+    // ⭐ 新增：防止连续触发
+    private bool isProcessingLevel = false;
+
 
     void Update()
     {
@@ -46,18 +48,17 @@ public class GamePlay : MonoBehaviour
             littleSceneCenters[i].Rotate(Vector3.up, -m_deltaX * m_rotateSpeed);
         }
 
-        // main camera movement
         camMain.localPosition += new Vector3(0, m_deltaY * moveYSpeed, m_deltaY * moveZSpeed);
 
         if (LimitCamPos()) return;
 
         for (int i = 0, len = littleSceneCams.Length; i < len; ++i)
         {
-            var cam = littleSceneCams[i];
-            cam.localPosition += new Vector3(0, m_deltaY * moveYSpeed, 0);
-            cam.LookAt(littleSceneCenters[i].position + lookFaceOffset);
+            //var cam = littleSceneCams[i];
+            //cam.localPosition += new Vector3(0, m_deltaY * moveYSpeed, 0);
+            littleSceneCams[i].LookAt(littleSceneCenters[i].position + lookFaceOffset);
+            //cam.LookAt(littleSceneCenters[i].position + lookFaceOffset);
         }
-
 
         CheckLevelCondition();
     }
@@ -81,37 +82,104 @@ public class GamePlay : MonoBehaviour
 
     /// <summary>
     /// detection
-    /// level 1 detect
+    /// detect different levels
+    /// </summary>
     private void CheckLevelCondition()
     {
-        if (Vector3.Distance(camMain.position, new Vector3(0f, 2.272501f, -5.07000f)) <= 0.5f &&
-            Math.Abs(camMain.localEulerAngles.x - 11.22795f) <= 2f &&
-            level == 0f)
-        {
-            Debug.Log("level 1");
-            StartCoroutine(NextLevel());
-        }
+        if (isProcessingLevel) return;
 
-        if (Vector3.Distance(camMain.position, new Vector3(0f, 2.272501f, -5.07000f)) <= 2f)
+        switch (level)
         {
-            Debug.Log($"[DEBUG] Cam Pos: {camMain.position} | Cam Rot X: {camMain.localEulerAngles.x} | Level: {level}");
+            case 0f:
+                CheckLevel1();
+                break;
+
+            case 1f:
+                CheckLevel2();  
+                break;
+
+            // 未来你还可以继续添加：
+            // case 2f:
+            //     CheckLevel3();
+            //     break;
         }
     }
 
-    // nextlevel
+
+    /// <summary>
+    /// Level 1 trigger
+    /// </summary>
+    private void CheckLevel1()
+    {
+        float boxY = box.eulerAngles.y;
+
+        if (Vector3.Distance(camMain.position, new Vector3(0f, 2.272501f, -5.07000f)) <= 0.1f &&
+        Mathf.Abs(camMain.localEulerAngles.x - 11.22795f) <= 1f &&
+        boxY >= 35f && boxY <= 50f)
+    {
+        Debug.Log("level 1");
+        StartCoroutine(NextLevel());
+    }
+
+    if (Vector3.Distance(camMain.position, new Vector3(0f, 2.272501f, -5.07000f)) <= 2f)
+    {
+        Debug.Log($"[DEBUG] Cam Pos: {camMain.position} | Cam Rot X: {camMain.localEulerAngles.x} | Level: {level} | BoxY = {boxY}");
+    }
+    }
+
+
+
+    /// <summary>
+    /// Level 1 process
+    /// </summary>
     private IEnumerator NextLevel()
     {
+        isProcessingLevel = true;  
+
         canRotate = false;
         level = 1f;
-        ani.SetInteger("level", 1); 
+
+        ani.SetInteger("level", 1);
         yield return new WaitForSeconds(2f);
+
         RealObject.SetActive(true);
 
         ani.SetInteger("level", 0);
         yield return new WaitForSeconds(2f);
+
         canRotate = true;
+        isProcessingLevel = false; 
     }
 
-    /// level 2 detect
+
+    // level 2 detect
+    private void CheckLevel2()
+    {
+       
+        if (Vector3.Distance(camMain.position, new Vector3(0f, 3f, -4f)) <= 0.5f)
+        {
+            Debug.Log("level 2");
+            StartCoroutine(Level2Process());
+        }
+    }
+
+    private IEnumerator Level2Process()
+    {
+        isProcessingLevel = true;
+
+        canRotate = false;
+        level = 2f;
+
+        ani.SetInteger("level", 2);
+        yield return new WaitForSeconds(2f);
+
+        // secondObject.SetActive(true);
+
+        ani.SetInteger("level", 0);
+        yield return new WaitForSeconds(2f);
+
+        canRotate = true;
+        isProcessingLevel = false;
+    }
 
 }
