@@ -1,10 +1,9 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class ChaMove : MonoBehaviour
 {
-    public float speed = 3f;
+    public float walkSpeed = 2f;
+    public float runSpeed = 4f;
 
     Animator anim;
     Vector3 move;
@@ -21,14 +20,27 @@ public class ChaMove : MonoBehaviour
 
         move = new Vector3(x, 0, z);
 
-        transform.LookAt(transform.position + new Vector3(x, 0, z));
-        transform.position += new Vector3(x, 0, z) * speed * Time.deltaTime;
+        bool hasInput = move.sqrMagnitude > 0.01f;
+        bool isRunning = hasInput && Input.GetKey(KeyCode.LeftShift);
 
-        UpdateAnim();
-    }
+        if (hasInput)
+        {
+            transform.LookAt(transform.position + move);
+            float speed = isRunning ? runSpeed : walkSpeed;
+            transform.position += move * speed * Time.deltaTime;
+        }
 
-    void UpdateAnim()
-    {
-        anim.SetFloat("Speed", move.magnitude);
+        if (!hasInput)
+        {
+            anim.SetFloat("Speed", 0f);
+        }
+        else if (isRunning)
+        {
+            anim.SetFloat("Speed", 1f);
+        }
+        else
+        {
+            anim.SetFloat("Speed", 0.5f);
+        }
     }
 }
