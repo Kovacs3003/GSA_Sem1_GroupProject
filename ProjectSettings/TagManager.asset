@@ -6,6 +6,7 @@ TagManager:
   tags:
   - AirWall
   - Fragment
+  - CinemachineTarget
   layers:
   - Default
   - TransparentFX
@@ -20,7 +21,7 @@ TagManager:
   - Scene 5
   - test stencil1
   - test stencil2
-  - 
+  - PostProcessing
   - 
   - 
   - 
