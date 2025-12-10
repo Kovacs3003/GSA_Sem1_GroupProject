@@ -24,7 +24,7 @@ public class GamePlay : MonoBehaviour
 
 
     [SerializeField] private Animator ani;
-    [SerializeField] private GameObject RealObject;
+    [SerializeField] private GameObject UI;
 
     private bool canRotate = true;
     private bool isProcessingLevel = false;
@@ -105,9 +105,9 @@ public class GamePlay : MonoBehaviour
                 CheckLevel4();
                 break;
 
-            case 4f:
-                CheckLevel5();
-                break;
+            //case 4f:
+            //    CheckLevel5();
+            //    break;
 
         }
     }
@@ -120,18 +120,15 @@ public class GamePlay : MonoBehaviour
     {
         float boxY = box.eulerAngles.y;
 
-        if (Vector3.Distance(camMain.position, new Vector3(0f, 2.272501f, -5.07000f)) <= 0.1f &&
-        Mathf.Abs(camMain.localEulerAngles.x - 11.22795f) <= 1f &&
-        boxY >= 35f && boxY <= 48f && level == 0)
+        if (Vector3.Distance(camMain.position, new Vector3(0f, 3.08f, -3.46f)) <= 0.2f &&
+        Mathf.Abs(camMain.localEulerAngles.x - 23.45f) <= 1.2f &&
+        boxY >= 47f && boxY <= 51f && level == 0)
     {
         Debug.Log("level 1");
         StartCoroutine(NextLevel());
     }
 
-    if (Vector3.Distance(camMain.position, new Vector3(0f, 2.272501f, -5.07000f)) <= 2f)
-    {
         Debug.Log($"[DEBUG] Cam Pos: {camMain.position} | Cam Rot X: {camMain.localEulerAngles.x} | Level: {level} | BoxY = {boxY}");
-    }
     }
 
 
@@ -149,7 +146,7 @@ public class GamePlay : MonoBehaviour
         ani.SetInteger("level", 1);
         yield return new WaitForSeconds(2f);
 
-        RealObject.transform.Find("Stair A").gameObject.SetActive(true);
+        UI.transform.Find("Level 1").gameObject.SetActive(true);
 
         ani.SetInteger("level", 0);
         yield return new WaitForSeconds(2f);
@@ -164,9 +161,9 @@ public class GamePlay : MonoBehaviour
     {
         float boxY = box.eulerAngles.y;
        
-        if (Vector3.Distance(camMain.position, new Vector3(0f, 2.272501f, -5.07000f)) <= 0.1f  &&
-        Mathf.Abs(camMain.localEulerAngles.x - 12.22795f) <= 1f &&
-        boxY >= 107f && boxY <= 113f && level == 1)
+        if (Vector3.Distance(camMain.position, new Vector3(0f, 2.80f, -4.01f)) <= 0.15f  &&
+        Mathf.Abs(camMain.localEulerAngles.x - 18.63f) <= 0.5f &&
+        boxY >= 113f && boxY <= 115f && level == 1)
         {
             Debug.Log("level 2");
             StartCoroutine(Level2Process());
@@ -185,8 +182,7 @@ public class GamePlay : MonoBehaviour
         ani.SetInteger("level", 2);
         yield return new WaitForSeconds(2f);
 
-        RealObject.transform.Find("Stair B").gameObject.SetActive(true);
-        RealObject.transform.Find("Stair A").gameObject.SetActive(false);
+        UI.transform.Find("Level 2").gameObject.SetActive(true);
 
         ani.SetInteger("level", 0);
         yield return new WaitForSeconds(2f);
@@ -200,9 +196,9 @@ public class GamePlay : MonoBehaviour
     {
         float boxY = box.eulerAngles.y;
        
-        if (Vector3.Distance(camMain.position, new Vector3(0f, 1.93f, -5.73f)) <= 0.35f  &&
-        Mathf.Abs(camMain.localEulerAngles.x - 7.57f) <= 1.5f &&
-        boxY >= 222f && boxY <= 225f && level == 2)
+        if (Vector3.Distance(camMain.position, new Vector3(0f, 2.52f, -4.57f)) <= 0.35f  &&
+        Mathf.Abs(camMain.localEulerAngles.x - 14.52f) <= 1.5f &&
+        boxY >= 244f && boxY <= 246f && level == 2)
         {
             Debug.Log("level 3");
             StartCoroutine(Level3Process());
@@ -221,8 +217,7 @@ public class GamePlay : MonoBehaviour
         ani.SetInteger("level", 3);
         yield return new WaitForSeconds(2f);
 
-        RealObject.transform.Find("Archway").gameObject.SetActive(true);
-        RealObject.transform.Find("Stair B").gameObject.SetActive(false);
+        UI.transform.Find("Level 3").gameObject.SetActive(true);
 
         ani.SetInteger("level", 0);
         yield return new WaitForSeconds(2f);
@@ -236,9 +231,9 @@ public class GamePlay : MonoBehaviour
     {
         float boxY = box.eulerAngles.y;
        
-        if (Vector3.Distance(camMain.position, new Vector3(0f, 3.37f, -2.865f)) <= 0.20f  &&
-        Mathf.Abs(camMain.localEulerAngles.x - 29.49f) <= 1.5f &&
-        boxY >= 282f && boxY <= 287f && level == 3)
+        if (Vector3.Distance(camMain.position, new Vector3(0f, 3.53f, -2.54f)) <= 0.20f  &&
+        Mathf.Abs(camMain.localEulerAngles.x - 33.24f) <= 1.5f &&
+        boxY >= 287f && boxY <= 292f && level == 3)
         {
             Debug.Log("level 4");
             StartCoroutine(Level4Process());
@@ -257,8 +252,7 @@ public class GamePlay : MonoBehaviour
         ani.SetInteger("level", 4);
         yield return new WaitForSeconds(2f);
 
-        RealObject.transform.Find("circle stairs").gameObject.SetActive(true);
-        RealObject.transform.Find("Archway").gameObject.SetActive(false);
+        UI.transform.Find("Level 4").gameObject.SetActive(true);
 
         ani.SetInteger("level", 0);
         yield return new WaitForSeconds(2f);
@@ -268,40 +262,40 @@ public class GamePlay : MonoBehaviour
     }
 
     // level 5 detect
-    private void CheckLevel5()
-    {
-        float boxY = box.eulerAngles.y;
+//    private void CheckLevel5()
+//   {
+//      float boxY = box.eulerAngles.y;
        
-        if (Vector3.Distance(camMain.position, new Vector3(0f, 3.725f, -1.80f)) <= 0.20f  &&
-        Mathf.Abs(camMain.localEulerAngles.x - 41.17f) <= 1.5f &&
-        boxY >= 6f && boxY <= 10f && level == 4)
-        {
-            Debug.Log("level 5");
-            StartCoroutine(Level5Process());
-        }
+//        if (Vector3.Distance(camMain.position, new Vector3(0f, 3.725f, -1.80f)) <= 0.20f  &&
+//        Mathf.Abs(camMain.localEulerAngles.x - 41.17f) <= 1.5f &&
+//        boxY >= 6f && boxY <= 10f && level == 4)
+//        {
+//            Debug.Log("level 5");
+//          StartCoroutine(Level5Process());
+//        }
 
-        Debug.Log($"[DEBUG] Cam Pos: {camMain.position} | Cam Rot X: {camMain.localEulerAngles.x} | Level: {level} | BoxY = {boxY}");
-    }
+//        Debug.Log($"[DEBUG] Cam Pos: {camMain.position} | Cam Rot X: {camMain.localEulerAngles.x} | Level: {level} | BoxY = {boxY}");
+//    }
 
-    private IEnumerator Level5Process()
-    {
-        isProcessingLevel = true;
+//    private IEnumerator Level5Process()
+//    {
+//        isProcessingLevel = true;
 
-        canRotate = false;
-        level = 5f;
+//        canRotate = false;
+//        level = 5f;
 
-        ani.SetInteger("level", 5);
-        yield return new WaitForSeconds(2f);
+//        ani.SetInteger("level", 5);
+//        yield return new WaitForSeconds(2f);
 
-        RealObject.transform.Find("FFORM").gameObject.SetActive(true);
-        RealObject.transform.Find("circle stairs").gameObject.SetActive(false);
+        //RealObject.transform.Find("FFORM").gameObject.SetActive(true);
+//        RealObject.transform.Find("circle stairs").gameObject.SetActive(false);
 
-        ani.SetInteger("level", 0);
-        yield return new WaitForSeconds(2f);
+//        ani.SetInteger("level", 0);
+//        yield return new WaitForSeconds(2f);
 
-        canRotate = true;
-        isProcessingLevel = false;
-    }
+//        canRotate = true;
+//        isProcessingLevel = false;
+//    }
 
 
 }
