@@ -3189,6 +3189,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1111466302}
+  - component: {fileID: 1111466305}
+  - component: {fileID: 1111466304}
+  - component: {fileID: 1111466303}
   m_Layer: 0
   m_Name: Manager
   m_TagString: Untagged
@@ -3211,6 +3214,64 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1111466303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1111466301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d5edc36c0fc25b4fba3b97b0247b2df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1111466304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1111466301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c89435685316ac47af2bf8c85912369, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  allowRevenue: 0
+  allowAvatar: 0
+  allowPublished: 0
+  allowUnreleasedAd: 0
+  revenueDecided: 0
+  avatarDecided: 0
+  publishedDecided: 0
+  unreleasedAdDecided: 0
+  endingAPanel: {fileID: 0}
+  endingBPanel: {fileID: 0}
+  endingCPanel: {fileID: 0}
+--- !u!114 &1111466305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1111466301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a7d9c8e0d75cdb4aae387b58b2e0312, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  littleSceneCams: []
+  littleSceneCenters: []
+  box: {fileID: 2089362586}
+  camMain: {fileID: 1237827662}
+  m_rotateSpeed: 0
+  lookOffset: {x: 0, y: 1, z: 0}
+  lookFaceOffset: {x: 0, y: -0.5, z: 0}
+  moveYSpeed: 0.05
+  moveZSpeed: 0.1
+  ani: {fileID: 2089362585}
+  UI: {fileID: 0}
 --- !u!1 &1131247242
 GameObject:
   m_ObjectHideFlags: 0
@@ -13791,7 +13852,7 @@ GameObject:
   - component: {fileID: 2089362586}
   - component: {fileID: 2089362585}
   m_Layer: 0
-  m_Name: WORLDROOT (1)
+  m_Name: Cage2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14123,6 +14184,7 @@ PrefabInstance:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+  - {fileID: 1111466302}
   - {fileID: 363499268}
   - {fileID: 2004915685}
   - {fileID: 1497797591}
@@ -14133,4 +14195,3 @@ SceneRoots:
   - {fileID: 368820261}
   - {fileID: 2084917237}
   - {fileID: 6880196270254324588}
-  - {fileID: 1111466302}
