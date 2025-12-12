@@ -30,7 +30,11 @@ public class GameManager : MonoBehaviour
         }
         else
         {
-            Destroy(gameObject);
+            void Awake()
+            {
+                Instance = this;
+            }
+
         }
     }
 

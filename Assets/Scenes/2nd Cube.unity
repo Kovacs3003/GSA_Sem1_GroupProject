@@ -766,6 +766,894 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 300117481}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &308064774
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 167728193538810860, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 749
+      objectReference: {fileID: 0}
+    - target: {fileID: 167728193538810860, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -458
+      objectReference: {fileID: 0}
+    - target: {fileID: 214232757334470580, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 214232757334470580, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 214232757334470580, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 214232757334470580, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 255467763674635259, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 255467763674635259, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 255467763674635259, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 255467763674635259, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 295573201822619993, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 295573201822619993, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 295573201822619993, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 295573201822619993, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 376497397459823140, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_Name
+      value: 'UI '
+      objectReference: {fileID: 0}
+    - target: {fileID: 564556533409018905, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 564556533409018905, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 564556533409018905, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 564556533409018905, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 644513984267003865, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_text
+      value: "Will document video\r\n "
+      objectReference: {fileID: 0}
+    - target: {fileID: 679822851511632773, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1028519322652543361, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1280979960161118864, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1341717100782207302, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1341717100782207302, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1341717100782207302, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1341717100782207302, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1428303330798531886, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_text
+      value: "You saved and uploaded all the data, and it was successfully archived.
+        The heart rate record from the sports watch was converted into a line graph,
+        the gene sequence became the sequence code in the research report, \r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1452652168308763987, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_text
+      value: Electronic medical records
+      objectReference: {fileID: 0}
+    - target: {fileID: 1478922198420088319, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_text
+      value: Rare disease gene sequences
+      objectReference: {fileID: 0}
+    - target: {fileID: 1546126536871828773, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 443d81b94831061419c67c13892b808b, type: 3}
+    - target: {fileID: 1727603092285224210, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_text
+      value: "\nThis is an official report from a genetic testing agency. The report
+        shows that her genes contain a mutated fragment associated with a rare disease.
+        The document records the sampling date, analysis process, and corresponding
+        coding sequence, serving as a basic reference for medical diagnosis and subsequent
+        research. \n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1727603092285224210, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_fontSize
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 1727603092285224210, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_fontStyle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1727603092285224210, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 1910150552423021836, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_text
+      value: "\nThis is a summary of her electronic medical records from multiple
+        hospitals. It includes inpatient and outpatient records, medication details,
+        test results, and doctors' summary comments.  \n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1910150552423021836, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_fontSize
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 1910150552423021836, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_fontStyle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1910150552423021836, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 1912410879657847440, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1912410879657847440, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1912410879657847440, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1912410879657847440, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2189851074528693331, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_text
+      value: Deletion completed
+      objectReference: {fileID: 0}
+    - target: {fileID: 2395220287905112677, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 53bb7af5521403b4aa3cda1a90d27cdf, type: 3}
+    - target: {fileID: 2688956911909044929, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_text
+      value: This is a health data file automatically recorded by a fitness watch,
+        covering her daily physical condition over the past two years. It includes
+        daily steps, heart rate changes, and nighttime sleep duration. Several records
+        showing abnormally high heart rates were highlighted by the system.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2688956911909044929, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_fontSize
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 2688956911909044929, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_fontStyle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2688956911909044929, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 2869706308978037952, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2869706308978037952, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2869706308978037952, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2869706308978037952, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3075813604821800447, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_text
+      value: "\n\n\n She made simple notes on her data to track changes in her condition.
+        These records accurately reflect her daily physical condition.\r\n\n\n\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3075813604821800447, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_fontSize
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 3075813604821800447, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_fontStyle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3075813604821800447, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147015621367488720, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_text
+      value: '
+
+
+
+
+
+        The report concludes by stating that further storage
+        or use for research collaboration requires the family''s consent. This document
+        contains highly private personal medical data and is currently in valid archive
+        status.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147015621367488720, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_fontSize
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147015621367488720, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_fontStyle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3147015621367488720, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 3171896559073702521, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3171896559073702521, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3171896559073702521, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3171896559073702521, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3495983991602953077, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3495983991602953077, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3495983991602953077, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3495983991602953077, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3506590560892947358, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_text
+      value: 'Sports Watch Health Log
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3571864383443355760, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3571864383443355760, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3571864383443355760, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3571864383443355760, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3585240234059685686, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3585240234059685686, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3585240234059685686, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3585240234059685686, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3973332375403941405, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3973332375403941405, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3973332375403941405, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3973332375403941405, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4003753879285763198, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4003753879285763198, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4003753879285763198, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4003753879285763198, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4590140907252586426, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4590140907252586426, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4590140907252586426, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4590140907252586426, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4638889626060484247, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_text
+      value: Data ID 13-B
+      objectReference: {fileID: 0}
+    - target: {fileID: 4644258894678461196, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4679466282895825170, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4679466282895825170, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4679466282895825170, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4679466282895825170, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4789500697598665055, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 593ff408449568b4b91404405f14efb7, type: 3}
+    - target: {fileID: 4889700114925989279, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4889700114925989279, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4889700114925989279, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4889700114925989279, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5024242090725698911, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_text
+      value: '
+
+
+
+
+
+        All digital evidence of her body disappeared as if it
+        had never existed. Doctors forgot her case number, the company lost information
+        about the devices connected to them, and only her mother remembered how she
+        used to toss and turn in her sleep.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5063761242552623531, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5063761242552623531, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5063761242552623531, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5063761242552623531, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5561728382208731309, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5561728382208731309, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5561728382208731309, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5561728382208731309, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5762183763353291491, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_text
+      value: '
+
+
+        These records meticulously document her diagnosis and treatment
+        process, changes in her condition, and treatment plans, providing crucial
+        information for a complete picture of her health.
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5762183763353291491, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_fontSize
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 5762183763353291491, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_fontStyle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5762183763353291491, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 5963098305336952691, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 1297a4d88a603aa4fa72c4bc757f1304, type: 3}
+    - target: {fileID: 6109647851667243069, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139328881398213616, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139328881398213616, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139328881398213616, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139328881398213616, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6222278636744242192, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_text
+      value: '
+
+        She wrote a brief will via video, in which she expressed
+        her wish that her physical information could be used for medical research,
+        where conditions permit.
+
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6222278636744242192, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_fontSize
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 6222278636744242192, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_fontStyle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6222278636744242192, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 6267423482225992097, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6410321692404567282, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_text
+      value: Long-term preservation
+      objectReference: {fileID: 0}
+    - target: {fileID: 6474217632018415834, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6474217632018415834, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6474217632018415834, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6474217632018415834, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6474217632018415834, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6474217632018415834, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6474217632018415834, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6474217632018415834, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6474217632018415834, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6474217632018415834, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6474217632018415834, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6474217632018415834, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6474217632018415834, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6474217632018415834, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6474217632018415834, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6474217632018415834, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6474217632018415834, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6474217632018415834, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6474217632018415834, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6474217632018415834, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6491035572301147506, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_text
+      value: '
+
+
+
+        You deleted all the data. Heart rate curves vanished, sleep
+        logs were erased, gene sequences couldn''t be reconstructed, and electronic
+        medical records were inaccessible. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 6510668838943843845, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6510668838943843845, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6510668838943843845, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6510668838943843845, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6930189356383171412, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6930189356383171412, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6930189356383171412, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6930189356383171412, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6940661061594846716, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042553073632237152, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042553073632237152, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042553073632237152, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7042553073632237152, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7189877665684826263, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7189877665684826263, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7189877665684826263, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7189877665684826263, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7447962362275273230, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7447962362275273230, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7447962362275273230, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7447962362275273230, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7493162656793883960, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7618126991438330718, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_text
+      value: You chose to preserve her data intact, but not to upload, publish, or
+        study it. It was securely stored on a secure server, filenames unchanged,
+        without numbering or anonymization. Heart rate records stopped at the last
+        upload date; gene sequences lay quietly in cold backups; electronic medical
+        records were locked with access restricted to family members only; and the
+        consent form regarding her physical data remained stably within the system.
+      objectReference: {fileID: 0}
+    - target: {fileID: 7651436665337020648, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7651436665337020648, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7651436665337020648, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7651436665337020648, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7745974319092725777, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_text
+      value: '
+
+
+        and the electronic medical record was compressed into a
+        citationable document. Her name disappeared from the system, leaving only
+        ID 13-B flashing coldly on the page.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7753761766525234716, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7753761766525234716, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7753761766525234716, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7753761766525234716, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7847205681837326955, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7847205681837326955, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7847205681837326955, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7847205681837326955, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7853613185117132936, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_text
+      value: '
+
+
+        The will was in its complete format, including the date
+        of signing and her confirmation. The content indicates that she had proactively
+        expressed her personal wishes regarding the future use of her physical data.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7853613185117132936, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_fontSize
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 7853613185117132936, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_fontStyle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7853613185117132936, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 7906402315926116084, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8193258739217327307, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_text
+      value: '
+
+
+
+        This data no longer serves as a reference for anyone, nor
+        does it subject itself to external controversy. It brings no profit, drives
+        no research, and becomes a topic of discussion. It simply occupies a small
+        space in time, standing alongside countless ordinary files. Some may never
+        open them again, but they remain. It is a silent, purposeless existence.
+        Her data is no longer wounded, nor forgotten.
+
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8579238666737693899, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8579238666737693899, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8579238666737693899, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8579238666737693899, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8924533964884751630, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8924533964884751630, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8924533964884751630, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8924533964884751630, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8985970239934326270, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 765
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a336c6ec8879bc44d89c7be05f01779c, type: 3}
 --- !u!1 &331507503
 GameObject:
   m_ObjectHideFlags: 0
@@ -1374,7 +2262,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 704549939}
     m_Modifications:
     - target: {fileID: 1457795231106666421, guid: eff83053769a99a4bbfedd45f9df7057, type: 3}
       propertyPath: m_Layer
@@ -1390,27 +2278,27 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 87b3712721d08984cb024a5571717d42, type: 2}
     - target: {fileID: 4134025220210244820, guid: eff83053769a99a4bbfedd45f9df7057, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.6752219
+      value: 1.218707
       objectReference: {fileID: 0}
     - target: {fileID: 4134025220210244820, guid: eff83053769a99a4bbfedd45f9df7057, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.6752219
+      value: 1.218707
       objectReference: {fileID: 0}
     - target: {fileID: 4134025220210244820, guid: eff83053769a99a4bbfedd45f9df7057, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.6752219
+      value: 1.218707
       objectReference: {fileID: 0}
     - target: {fileID: 4134025220210244820, guid: eff83053769a99a4bbfedd45f9df7057, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.45
+      value: -36.634487
       objectReference: {fileID: 0}
     - target: {fileID: 4134025220210244820, guid: eff83053769a99a4bbfedd45f9df7057, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.28
+      value: 0.87754166
       objectReference: {fileID: 0}
     - target: {fileID: 4134025220210244820, guid: eff83053769a99a4bbfedd45f9df7057, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.379
+      value: -40.35326
       objectReference: {fileID: 0}
     - target: {fileID: 4134025220210244820, guid: eff83053769a99a4bbfedd45f9df7057, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1418,7 +2306,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4134025220210244820, guid: eff83053769a99a4bbfedd45f9df7057, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4134025220210244820, guid: eff83053769a99a4bbfedd45f9df7057, type: 3}
       propertyPath: m_LocalRotation.y
@@ -1465,6 +2353,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eff83053769a99a4bbfedd45f9df7057, type: 3}
+--- !u!4 &460194863 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4134025220210244820, guid: eff83053769a99a4bbfedd45f9df7057, type: 3}
+  m_PrefabInstance: {fileID: 460194862}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &514119972
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1703,6 +2596,7 @@ Transform:
   - {fileID: 771569350}
   - {fileID: 1390749733}
   - {fileID: 889460679}
+  - {fileID: 460194863}
   m_Father: {fileID: 2089362586}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &727957579
@@ -14297,4 +15191,4 @@ SceneRoots:
   - {fileID: 2089362586}
   - {fileID: 368820261}
   - {fileID: 2084917237}
-  - {fileID: 460194862}
+  - {fileID: 308064774}
