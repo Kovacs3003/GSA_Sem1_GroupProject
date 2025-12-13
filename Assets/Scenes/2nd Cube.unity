@@ -2991,7 +2991,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4134025220210244820, guid: eff83053769a99a4bbfedd45f9df7057, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.87754166
+      value: 0.847
       objectReference: {fileID: 0}
     - target: {fileID: 4134025220210244820, guid: eff83053769a99a4bbfedd45f9df7057, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5026,9 +5026,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1111466302}
-  - component: {fileID: 1111466305}
   - component: {fileID: 1111466303}
   - component: {fileID: 1111466306}
+  - component: {fileID: 1111466307}
   m_Layer: 0
   m_Name: Manager
   m_TagString: Untagged
@@ -5063,29 +5063,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d5edc36c0fc25b4fba3b97b0247b2df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1111466305
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1111466301}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a7d9c8e0d75cdb4aae387b58b2e0312, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  littleSceneCams: []
-  littleSceneCenters: []
-  box: {fileID: 2089362586}
-  camMain: {fileID: 1237827662}
-  m_rotateSpeed: 0
-  lookOffset: {x: 0, y: 1, z: 0}
-  lookFaceOffset: {x: 0, y: -0.5, z: 0}
-  moveYSpeed: 0.05
-  moveZSpeed: 0.1
-  ani: {fileID: 2089362585}
-  UI: {fileID: 0}
 --- !u!114 &1111466306
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5109,6 +5086,39 @@ MonoBehaviour:
   endingAPanel: {fileID: 0}
   endingBPanel: {fileID: 0}
   endingCPanel: {fileID: 0}
+--- !u!114 &1111466307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1111466301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8f8f2d3773ef0b46ae9a9f48700f573, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  littleSceneCams:
+  - {fileID: 1360261044}
+  - {fileID: 1373683449}
+  - {fileID: 1021015179}
+  - {fileID: 1433071105}
+  - {fileID: 762295889}
+  littleSceneCenters:
+  - {fileID: 1365774754}
+  - {fileID: 331507504}
+  - {fileID: 1931236264}
+  - {fileID: 1268924838}
+  - {fileID: 1444312072}
+  box: {fileID: 2089362586}
+  camMain: {fileID: 1237827662}
+  m_rotateSpeed: 0
+  lookOffset: {x: 0, y: 1, z: 0}
+  lookFaceOffset: {x: 0, y: -0.5, z: 0}
+  moveYSpeed: 0.05
+  moveZSpeed: 0.1
+  ani: {fileID: 0}
+  UI: {fileID: 0}
 --- !u!1 &1131247242
 GameObject:
   m_ObjectHideFlags: 0

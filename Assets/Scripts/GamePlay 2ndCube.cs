@@ -2,7 +2,7 @@ using System;
 using System.Collections;
 using UnityEngine;
 
-public class GamePlay : MonoBehaviour
+public class GamePlay2ndCube : MonoBehaviour
 {
 
     [SerializeField] private Transform[] littleSceneCams;
@@ -48,7 +48,7 @@ public class GamePlay : MonoBehaviour
 
         camMain.localPosition += new Vector3(0, m_deltaY * moveYSpeed, m_deltaY * moveZSpeed);
 
-        if (LimitCamPos()) return;
+        if (Scene2LimitCamPos()) return;
 
         for (int i = 0, len = littleSceneCams.Length; i < len; ++i)
         {
@@ -58,11 +58,11 @@ public class GamePlay : MonoBehaviour
             //cam.LookAt(littleSceneCenters[i].position + lookFaceOffset);
         }
 
-        CheckLevelCondition();
+        LevelCondition();
     }
 
 
-    private bool LimitCamPos()
+    private bool Scene2LimitCamPos()
     {
         var curPos = camMain.position;
         var isOut = false;
@@ -82,27 +82,27 @@ public class GamePlay : MonoBehaviour
     /// detection
     /// detect different levels
     /// </summary>
-    private void CheckLevelCondition()
+    private void LevelCondition()
     {
         if (isProcessingLevel) return;
 
         switch (level)
         {
             case 0f:
-                CheckLevel1();
+                Level1();
                 break;
 
             case 1f:
-                CheckLevel2();  
+                Level2();  
                 break;
 
            
             case 2f:
-                CheckLevel3();
+                Level3();
                 break;
 
             case 3f:
-                CheckLevel4();
+                Level4();
                 break;
 
 
@@ -113,16 +113,16 @@ public class GamePlay : MonoBehaviour
     /// <summary>
     /// Level 1 trigger
     /// </summary>
-    private void CheckLevel1()
+    private void Level1()
     {
         float boxY = box.eulerAngles.y;
 
-        if (Vector3.Distance(camMain.position, new Vector3(0f, 3.08f, -3.46f)) <= 0.2f &&
-        Mathf.Abs(camMain.localEulerAngles.x - 23.45f) <= 1.2f &&
-        boxY >= 47f && boxY <= 51f && level == 0)
+        if (Vector3.Distance(camMain.position, new Vector3(0f, 3.005f, -3.59f)) <= 0.2f &&
+        Mathf.Abs(camMain.localEulerAngles.x - 22.20f) <= 1.2f &&
+        boxY >= 106f && boxY <= 110f && level == 0)
     {
         Debug.Log("level 1");
-        StartCoroutine(NextLevel());
+        StartCoroutine(Scene2Level1Process());
     }
 
         Debug.Log($"[DEBUG] Cam Pos: {camMain.position} | Cam Rot X: {camMain.localEulerAngles.x} | Level: {level} | BoxY = {boxY}");
@@ -133,7 +133,7 @@ public class GamePlay : MonoBehaviour
     /// <summary>
     /// Level 1 process
     /// </summary>
-    private IEnumerator NextLevel()
+    private IEnumerator Scene2Level1Process()
     {
         isProcessingLevel = true;  
 
@@ -154,22 +154,22 @@ public class GamePlay : MonoBehaviour
 
 
     // level 2 detect
-    private void CheckLevel2()
+    private void Level2()
     {
         float boxY = box.eulerAngles.y;
        
-        if (Vector3.Distance(camMain.position, new Vector3(0f, 2.80f, -4.01f)) <= 0.15f  &&
-        Mathf.Abs(camMain.localEulerAngles.x - 18.63f) <= 0.5f &&
-        boxY >= 113f && boxY <= 115f && level == 1)
+        if (Vector3.Distance(camMain.position, new Vector3(0f, 1.615f, -6.37f)) <= 0.45f  &&
+        Mathf.Abs(camMain.localEulerAngles.x - 4.66f) <= 1.0f &&
+        boxY >= 132f && boxY <= 136f && level == 1)
         {
             Debug.Log("level 2");
-            StartCoroutine(Level2Process());
+            StartCoroutine(Scene2Level2Process());
         }
 
         Debug.Log($"[DEBUG] Cam Pos: {camMain.position} | Cam Rot X: {camMain.localEulerAngles.x} | Level: {level} | BoxY = {boxY}");
     }
 
-    private IEnumerator Level2Process()
+    private IEnumerator Scene2Level2Process()
     {
         isProcessingLevel = true;
 
@@ -189,22 +189,22 @@ public class GamePlay : MonoBehaviour
     }
 
     // level 3 detect
-    private void CheckLevel3()
+    private void Level3()
     {
         float boxY = box.eulerAngles.y;
        
-        if (Vector3.Distance(camMain.position, new Vector3(0f, 2.52f, -4.57f)) <= 0.35f  &&
-        Mathf.Abs(camMain.localEulerAngles.x - 14.52f) <= 1.5f &&
-        boxY >= 244f && boxY <= 246f && level == 2)
+        if (Vector3.Distance(camMain.position, new Vector3(0f, 3.72f, -2.17f)) <= 0.35f  &&
+        Mathf.Abs(camMain.localEulerAngles.x - 37.93f) <= 1.5f &&
+        boxY >= 191f && boxY <= 194f && level == 2)
         {
             Debug.Log("level 3");
-            StartCoroutine(Level3Process());
+            StartCoroutine(Scene2Level3Process());
         }
 
         Debug.Log($"[DEBUG] Cam Pos: {camMain.position} | Cam Rot X: {camMain.localEulerAngles.x} | Level: {level} | BoxY = {boxY}");
     }
 
-    private IEnumerator Level3Process()
+    private IEnumerator Scene2Level3Process()
     {
         isProcessingLevel = true;
 
@@ -224,22 +224,22 @@ public class GamePlay : MonoBehaviour
     }
 
     // level 4 detect
-    private void CheckLevel4()
+    private void Level4()
     {
         float boxY = box.eulerAngles.y;
        
-        if (Vector3.Distance(camMain.position, new Vector3(0f, 3.53f, -2.54f)) <= 0.20f  &&
-        Mathf.Abs(camMain.localEulerAngles.x - 33.24f) <= 1.5f &&
-        boxY >= 287f && boxY <= 292f && level == 3)
+        if (Vector3.Distance(camMain.position, new Vector3(0f, 2.395f, -4.81f)) <= 0.20f  &&
+        Mathf.Abs(camMain.localEulerAngles.x - 12.80f) <= 0.8f &&
+        boxY >= 299f && boxY <= 302f && level == 3)
         {
             Debug.Log("level 4");
-            StartCoroutine(Level4Process());
+            StartCoroutine(Scene2Level4Process());
         }
 
         Debug.Log($"[DEBUG] Cam Pos: {camMain.position} | Cam Rot X: {camMain.localEulerAngles.x} | Level: {level} | BoxY = {boxY}");
     }
 
-    private IEnumerator Level4Process()
+    private IEnumerator Scene2Level4Process()
     {
         isProcessingLevel = true;
 
@@ -257,6 +257,8 @@ public class GamePlay : MonoBehaviour
         canRotate = true;
         isProcessingLevel = false;
     }
+
+
 
 }
 
