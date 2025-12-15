@@ -12,4 +12,7 @@ public class SceneLoader : MonoBehaviour
         Debug.Log("Quit Game");
         Application.Quit();
     }
+
+
+
 }

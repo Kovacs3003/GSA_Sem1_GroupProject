@@ -73,4 +73,6 @@ public class GameManager : MonoBehaviour
         endingBPanel.SetActive(false);
         endingCPanel.SetActive(false);
     }
+
+
 }
