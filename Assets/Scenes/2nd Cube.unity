@@ -2283,6 +2283,18 @@ PrefabInstance:
       propertyPath: m_fontColor32.rgba
       value: 4278202890
       objectReference: {fileID: 0}
+    - target: {fileID: 2524365210484472282, guid: ad5819cb23f3503488437b5066cfe687, type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2524365210484472282, guid: ad5819cb23f3503488437b5066cfe687, type: 3}
+      propertyPath: m_ReferenceResolution.x
+      value: 2560
+      objectReference: {fileID: 0}
+    - target: {fileID: 2524365210484472282, guid: ad5819cb23f3503488437b5066cfe687, type: 3}
+      propertyPath: m_ReferenceResolution.y
+      value: 1440
+      objectReference: {fileID: 0}
     - target: {fileID: 2703990287154687606, guid: ad5819cb23f3503488437b5066cfe687, type: 3}
       propertyPath: m_text
       value: "Electronic medical records\r\n "
